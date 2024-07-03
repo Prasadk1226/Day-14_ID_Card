@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 10px solid aquamarine; */
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  display: inline;
+}
+.box {
+  border: 2px solid rgb(0, 0, 0);
+  height: 60vh;
+  width: 40vw;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 20%;
+  /* margin-bottom: 20%; */
+  min-width: 300px;
+  min-height: 500px;
+  background-image: radial-gradient(
+    circle at bottom right,
+    #fff,
+    lightblue
+  );
+}
+.box1 {
+  display: inline-block;
+  margin-left: 5%;
+}
+h5 {
+  display: inline-block;
+}
+.profile {
+  border: 2px solid rgb(167, 195, 55);
+  background-color: rgb(168, 168, 168);
+  height: 200px;
+  margin: 20px;
+  border-radius: 50%;
+}
